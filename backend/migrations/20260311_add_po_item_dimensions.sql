@@ -1,0 +1,5 @@
+ALTER TABLE purchase_order_items
+  ADD COLUMN length FLOAT NULL,
+  ADD COLUMN width FLOAT NULL,
+  ADD COLUMN height FLOAT NULL,
+  ADD COLUMN cft FLOAT NULL;
